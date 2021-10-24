@@ -1,0 +1,201 @@
+SET_SIZE, EXP_CONF, CONF, SUPPORT, LIFT, COUNT, RULE, _LHAND, _RHAND, ITEM1, ITEM2, ITEM3, ITEM4, ITEM5, index, Transpose
+4,19.31,68.97,6.36,3.57,140, first & Yes ==> Female & Adult, first & Yes, Female & Adult, first, Yes, =====>, Female, Adult,1,0
+4,9.22,32.94,6.36,3.57,140, Female & Adult ==> first & Yes, Female & Adult, first & Yes, Female, Adult, =====>, first, Yes,2,0
+4,8.95,29.79,6.36,3.33,140, Female ==> first & Yes & Adult, Female, first & Yes & Adult, Female, =====>, first, Yes, Adult,3,0
+4,21.35,71.07,6.36,3.33,140, first & Yes & Adult ==> Female, first & Yes & Adult, Female, first, Yes, Adult, =====>, Female,4,0
+3,9.22,30,6.41,3.25,141, Female ==> first & Yes, Female, first & Yes, Female, =====>, first, Yes, ,5,0
+3,21.35,69.46,6.41,3.25,141, first & Yes ==> Female, first & Yes, Female, first, Yes, =====>, Female, ,6,0
+4,29.71,96.55,6.36,3.25,140, first & Female ==> Yes & Adult, first & Female, Yes & Adult, first, Female, =====>, Yes, Adult,7,0
+4,6.59,21.41,6.36,3.25,140, Yes & Adult ==> first & Female, Yes & Adult, first & Female, Yes, Adult, =====>, first, Female,8,0
+3,6.59,19.83,6.41,3.01,141, Yes ==> first & Female, Yes, first & Female, Yes, =====>, first, Female, ,9,0
+3,32.3,97.24,6.41,3.01,141, first & Female ==> Yes, first & Female, Yes, first, Female, =====>, Yes, ,10,1
+4,6.54,19.69,6.36,3.01,140, Yes ==> first & Female & Adult, Yes, first & Female & Adult, Yes, =====>, first, Female, Adult,11,0
+4,32.3,97.22,6.36,3.01,140, first & Female & Adult ==> Yes, first & Female & Adult, Yes, first, Female, Adult, =====>, Yes,12,1
+4,14.36,43.08,6.36,3,140, first ==> Yes & Female & Adult, first, Yes & Female & Adult, first, =====>, Yes, Female, Adult,13,0
+4,14.77,44.3,6.36,3,140, Yes & Female & Adult ==> first, Yes & Female & Adult, first, Yes, Female, Adult, =====>, first,14,0
+4,15.63,43.89,6.36,2.81,140, first & Adult ==> Yes & Female, first & Adult, Yes & Female, first, Adult, =====>, Yes, Female,15,0
+4,14.49,40.7,6.36,2.81,140, Yes & Female ==> first & Adult, Yes & Female, first & Adult, Yes, Female, =====>, first, Adult,16,0
+3,15.63,43.38,6.41,2.78,141, first ==> Yes & Female, first, Yes & Female, first, =====>, Yes, Female, ,17,0
+3,14.77,40.99,6.41,2.78,141, Yes & Female ==> first, Yes & Female, first, Yes, Female, =====>, first, ,18,0
+3,5.72,15.01,4.82,2.62,106, third ==> No & Female, third, No & Female, third, =====>, No, Female, ,19,0
+3,32.08,84.13,4.82,2.62,106, No & Female ==> third, No & Female, third, No, Female, =====>, third, ,20,0
+3,19.31,44.44,14.36,2.3,316, Yes ==> Female & Adult, Yes, Female & Adult, Yes, =====>, Female, Adult, ,21,0
+3,32.3,74.35,14.36,2.3,316, Female & Adult ==> Yes, Female & Adult, Yes, Female, Adult, =====>, Yes, ,22,1
+3,19.31,44.31,6.54,2.29,144, first ==> Female & Adult, first, Female & Adult, first, =====>, Female, Adult, ,23,0
+3,14.77,33.88,6.54,2.29,144, Female & Adult ==> first, Female & Adult, first, Female, Adult, =====>, first, ,24,0
+2,21.35,48.38,15.63,2.27,344, Yes ==> Female, Yes, Female, Yes, =====>, Female, , ,25,0
+2,32.3,73.19,15.63,2.27,344, Female ==> Yes, Female, Yes, Female, =====>, Yes, , ,26,1
+3,29.71,67.23,14.36,2.26,316, Female ==> Yes & Adult, Female, Yes & Adult, Female, =====>, Yes, Adult, ,27,0
+3,21.35,48.32,14.36,2.26,316, Yes & Adult ==> Female, Yes & Adult, Female, Yes, Adult, =====>, Female, ,28,0
+3,14.49,30.64,6.54,2.11,144, Female ==> first & Adult, Female, first & Adult, Female, =====>, first, Adult, ,29,0
+3,21.35,45.14,6.54,2.11,144, first & Adult ==> Female, first & Adult, Female, first, Adult, =====>, Female, ,30,0
+2,21.35,44.62,6.59,2.09,145, first ==> Female, first, Female, first, =====>, Female, , ,31,0
+2,14.77,30.85,6.59,2.09,145, Female ==> first, Female, first, Female, =====>, first, , ,32,0
+3,29.71,60.62,8.95,2.04,197, first ==> Yes & Adult, first, Yes & Adult, first, =====>, Yes, Adult, ,33,0
+3,14.77,30.12,8.95,2.04,197, Yes & Adult ==> first, Yes & Adult, first, Yes, Adult, =====>, first, ,34,0
+2,32.3,62.46,9.22,1.93,203, first ==> Yes, first, Yes, first, =====>, Yes, , ,35,1
+2,14.77,28.55,9.22,1.93,203, Yes ==> first, Yes, first, Yes, =====>, first, , ,36,0
+3,14.49,27.71,8.95,1.91,197, Yes ==> first & Adult, Yes, first & Adult, Yes, =====>, first, Adult, ,37,0
+3,32.3,61.76,8.95,1.91,197, first & Adult ==> Yes, first & Adult, Yes, first, Adult, =====>, Yes, ,38,1
+2,21.35,37.19,4.82,1.74,106, second ==> Female, second, Female, second, =====>, Female, , ,39,0
+2,12.95,22.55,4.82,1.74,106, Female ==> second, Female, second, Female, =====>, second, , ,40,0
+4,15.36,21.69,8.72,1.41,192, crew ==> Yes & Male & Adult, crew, Yes & Male & Adult, crew, =====>, Yes, Male, Adult,41,0
+4,40.21,56.8,8.72,1.41,192, Yes & Male & Adult ==> crew, Yes & Male & Adult, crew, Yes, Male, Adult, =====>, crew,42,0
+4,7.63,10.34,7,1.35,154, No ==> second & Male & Adult, No, second & Male & Adult, No, =====>, second, Male, Adult,43,0
+4,67.7,91.67,7,1.35,154, second & Male & Adult ==> No, second & Male & Adult, No, second, Male, Adult, =====>, No,44,1
+4,65.33,86.03,7,1.32,154, second & Male ==> No & Adult, second & Male, No & Adult, second, Male, =====>, No, Adult,45,0
+4,8.13,10.71,7,1.32,154, No & Adult ==> second & Male, No & Adult, second & Male, No, Adult, =====>, second, Male,46,0
+4,75.74,99.55,30.44,1.31,670, crew & No ==> Male & Adult, crew & No, Male & Adult, crew, No, =====>, Male, Adult,47,0
+4,30.58,40.19,30.44,1.31,670, Male & Adult ==> crew & No, Male & Adult, crew & No, Male, Adult, =====>, crew, No,48,0
+3,16.67,21.69,8.72,1.3,192, crew ==> Yes & Male, crew, Yes & Male, crew, =====>, Yes, Male, ,49,0
+3,40.21,52.32,8.72,1.3,192, Yes & Male ==> crew, Yes & Male, crew, Yes, Male, =====>, crew, ,50,0
+4,16.67,21.69,8.72,1.3,192, crew & Adult ==> Yes & Male, crew & Adult, Yes & Male, crew, Adult, =====>, Yes, Male,51,0
+4,40.21,52.32,8.72,1.3,192, Yes & Male ==> crew & Adult, Yes & Male, crew & Adult, Yes, Male, =====>, crew, Adult,52,0
+2,21.35,27.76,8.91,1.3,196, third ==> Female, third, Female, third, =====>, Female, , ,53,0
+2,32.08,41.7,8.91,1.3,196, Female ==> third, Female, third, Female, =====>, third, , ,54,0
+3,75.74,97.4,39.16,1.29,862, crew ==> Male & Adult, crew, Male & Adult, crew, =====>, Male, Adult, ,55,0
+3,40.21,51.71,39.16,1.29,862, Male & Adult ==> crew, Male & Adult, crew, Male, Adult, =====>, crew, ,56,0
+2,32.3,41.4,5.36,1.28,118, second ==> Yes, second, Yes, second, =====>, Yes, , ,57,1
+2,12.95,16.6,5.36,1.28,118, Yes ==> second, Yes, second, Yes, =====>, second, , ,58,0
+4,75.74,96.72,5.36,1.28,118, first & No ==> Male & Adult, first & No, Male & Adult, first, No, =====>, Male, Adult,59,0
+3,8.13,10.34,7,1.27,154, No ==> second & Male, No, second & Male, No, =====>, second, Male, ,60,0
+3,67.7,86.03,7,1.27,154, second & Male ==> No, second & Male, No, second, Male, =====>, No, ,61,1
+3,30.58,38.71,30.44,1.27,670, Male ==> crew & No, Male, crew & No, Male, =====>, crew, No, ,62,0
+3,78.65,99.55,30.44,1.27,670, crew & No ==> Male, crew & No, Male, crew, No, =====>, Male, ,63,0
+4,30.58,38.71,30.44,1.27,670, Male ==> crew & No & Adult, Male, crew & No & Adult, Male, =====>, crew, No, Adult,64,0
+4,78.65,99.55,30.44,1.27,670, crew & No & Adult ==> Male, crew & No & Adult, Male, crew, No, Adult, =====>, Male,65,0
+4,60.38,75.71,30.44,1.25,670, crew ==> No & Male & Adult, crew, No & Male & Adult, crew, =====>, No, Male, Adult,66,0
+4,40.21,50.41,30.44,1.25,670, No & Male & Adult ==> crew, No & Male & Adult, crew, No, Male, Adult, =====>, crew,67,0
+2,78.65,97.4,39.16,1.24,862, crew ==> Male, crew, Male, crew, =====>, Male, , ,68,0
+2,40.21,49.8,39.16,1.24,862, Male ==> crew, Male, crew, Male, =====>, crew, , ,69,0
+3,40.21,49.8,39.16,1.24,862, Male ==> crew & Adult, Male, crew & Adult, Male, =====>, crew, Adult, ,70,0
+3,78.65,97.4,39.16,1.24,862, crew & Adult ==> Male, crew & Adult, Male, crew, Adult, =====>, Male, ,71,0
+4,20.99,25.97,17.58,1.24,387, No ==> third & Male & Adult, No, third & Male & Adult, No, =====>, third, Male, Adult,72,0
+4,67.7,83.77,17.58,1.24,387, third & Male & Adult ==> No, third & Male & Adult, No, third, Male, Adult, =====>, No,73,1
+3,28.49,35.11,7.5,1.23,165, Female ==> third & Adult, Female, third & Adult, Female, =====>, third, Adult, ,74,0
+3,21.35,26.32,7.5,1.23,165, third & Adult ==> Female, third & Adult, Female, third, Adult, =====>, Female, ,75,0
+3,78.65,96.72,5.36,1.23,118, first & No ==> Male, first & No, Male, first, No, =====>, Male, ,76,0
+4,78.65,96.72,5.36,1.23,118, first & No & Adult ==> Male, first & No & Adult, Male, first, No, Adult, =====>, Male,77,0
+3,23.17,28.32,19.17,1.22,422, No ==> third & Male, No, third & Male, No, =====>, third, Male, ,78,0
+3,67.7,82.75,19.17,1.22,422, third & Male ==> No, third & Male, No, third, Male, =====>, No, ,79,1
+3,61.97,75.71,30.44,1.22,670, crew ==> No & Male, crew, No & Male, crew, =====>, No, Male, ,80,0
+3,40.21,49.12,30.44,1.22,670, No & Male ==> crew, No & Male, crew, No, Male, =====>, crew, ,81,0
+4,61.97,75.71,30.44,1.22,670, crew & Adult ==> No & Male, crew & Adult, No & Male, crew, Adult, =====>, No, Male,82,0
+4,40.21,49.12,30.44,1.22,670, No & Male ==> crew & Adult, No & Male, crew & Adult, No, Male, =====>, crew, Adult,83,0
+4,75.74,92.22,7,1.22,154, second & No ==> Male & Adult, second & No, Male & Adult, second, No, =====>, Male, Adult,84,0
+3,19.31,23.37,7.5,1.21,165, third ==> Female & Adult, third, Female & Adult, third, =====>, Female, Adult, ,85,0
+3,32.08,38.82,7.5,1.21,165, Female & Adult ==> third, Female & Adult, third, Female, Adult, =====>, third, ,86,0
+4,75.74,90.57,8.72,1.2,192, crew & Yes ==> Male & Adult, crew & Yes, Male & Adult, crew, Yes, =====>, Male, Adult,87,0
+4,9.63,11.52,8.72,1.2,192, Male & Adult ==> crew & Yes, Male & Adult, crew & Yes, Male, Adult, =====>, crew, Yes,88,0
+4,65.33,77.73,30.44,1.19,670, crew & Male ==> No & Adult, crew & Male, No & Adult, crew, Male, =====>, No, Adult,89,0
+4,39.16,46.59,30.44,1.19,670, No & Adult ==> crew & Male, No & Adult, crew & Male, No, Adult, =====>, crew, Male,90,0
+3,75.74,89.19,60.38,1.18,1329, No ==> Male & Adult, No, Male & Adult, No, =====>, Male, Adult, ,91,0
+3,67.7,79.72,60.38,1.18,1329, Male & Adult ==> No, Male & Adult, No, Male, Adult, =====>, No, ,92,1
+3,65.33,76.78,60.38,1.18,1329, Male ==> No & Adult, Male, No & Adult, Male, =====>, No, Adult, ,93,0
+3,78.65,92.42,60.38,1.18,1329, No & Adult ==> Male, No & Adult, Male, No, Adult, =====>, Male, ,94,0
+3,78.65,92.22,7,1.17,154, second & No ==> Male, second & No, Male, second, No, =====>, Male, ,95,0
+4,78.65,92.22,7,1.17,154, second & No & Adult ==> Male, second & No & Adult, Male, second, No, Adult, =====>, Male,96,0
+2,78.65,91.54,61.97,1.16,1364, No ==> Male, No, Male, No, =====>, Male, , ,97,0
+2,67.7,78.8,61.97,1.16,1364, Male ==> No, Male, No, Male, =====>, No, , ,98,1
+3,65.33,76.05,30.58,1.16,673, crew ==> No & Adult, crew, No & Adult, crew, =====>, No, Adult, ,99,0
+3,40.21,46.8,30.58,1.16,673, No & Adult ==> crew, No & Adult, crew, No, Adult, =====>, crew, ,100,0
+4,65.33,75.88,17.58,1.16,387, third & Male ==> No & Adult, third & Male, No & Adult, third, Male, =====>, No, Adult,101,0
+4,23.17,26.91,17.58,1.16,387, No & Adult ==> third & Male, No & Adult, third & Male, No, Adult, =====>, third, Male,102,0
+3,9.63,11.09,8.72,1.15,192, Male ==> crew & Yes, Male, crew & Yes, Male, =====>, crew, Yes, ,103,0
+3,78.65,90.57,8.72,1.15,192, crew & Yes ==> Male, crew & Yes, Male, crew, Yes, =====>, Male, ,104,0
+4,9.63,11.09,8.72,1.15,192, Male ==> crew & Yes & Adult, Male, crew & Yes & Adult, Male, =====>, crew, Yes, Adult,105,0
+4,78.65,90.57,8.72,1.15,192, crew & Yes & Adult ==> Male, crew & Yes & Adult, Male, crew, Yes, Adult, =====>, Male,106,0
+3,39.16,44.97,30.44,1.15,670, No ==> crew & Male, No, crew & Male, No, =====>, crew, Male, ,107,0
+3,67.7,77.73,30.44,1.15,670, crew & Male ==> No, crew & Male, No, crew, Male, =====>, No, ,108,1
+4,39.16,44.97,30.44,1.15,670, No ==> crew & Male & Adult, No, crew & Male & Adult, No, =====>, crew, Male, Adult,109,0
+4,67.7,77.73,30.44,1.15,670, crew & Male & Adult ==> No, crew & Male & Adult, No, crew, Male, Adult, =====>, No,110,1
+2,67.7,76.05,30.58,1.12,673, crew ==> No, crew, No, crew, =====>, No, , ,111,1
+2,40.21,45.17,30.58,1.12,673, No ==> crew, No, crew, No, =====>, crew, , ,112,0
+3,40.21,45.17,30.58,1.12,673, No ==> crew & Adult, No, crew & Adult, No, =====>, crew, Adult, ,113,0
+3,67.7,76.05,30.58,1.12,673, crew & Adult ==> No, crew & Adult, No, crew, Adult, =====>, No, ,114,1
+3,28.49,31.95,21.63,1.12,476, No ==> third & Adult, No, third & Adult, No, =====>, third, Adult, ,115,0
+3,67.7,75.92,21.63,1.12,476, third & Adult ==> No, third & Adult, No, third, Adult, =====>, No, ,116,1
+2,67.7,74.79,23.99,1.1,528, third ==> No, third, No, third, =====>, No, , ,117,1
+2,32.08,35.44,23.99,1.1,528, No ==> third, No, third, No, =====>, third, , ,118,0
+2,95.05,100,40.21,1.05,885, crew ==> Adult, crew, Adult, crew, =====>, Adult, , ,119,0
+2,40.21,42.3,40.21,1.05,885, Adult ==> crew, Adult, crew, Adult, =====>, crew, , ,120,0
+3,39.16,41.2,39.16,1.05,862, Adult ==> crew & Male, Adult, crew & Male, Adult, =====>, crew, Male, ,121,0
+3,95.05,100,39.16,1.05,862, crew & Male ==> Adult, crew & Male, Adult, crew, Male, =====>, Adult, ,122,0
+3,30.58,32.17,30.58,1.05,673, Adult ==> crew & No, Adult, crew & No, Adult, =====>, crew, No, ,123,0
+3,95.05,100,30.58,1.05,673, crew & No ==> Adult, crew & No, Adult, crew, No, =====>, Adult, ,124,0
+3,9.63,10.13,9.63,1.05,212, Adult ==> crew & Yes, Adult, crew & Yes, Adult, =====>, crew, Yes, ,125,0
+3,95.05,100,9.63,1.05,212, crew & Yes ==> Adult, crew & Yes, Adult, crew, Yes, =====>, Adult, ,126,0
+3,95.05,100,7.59,1.05,167, second & No ==> Adult, second & No, Adult, second, No, =====>, Adult, ,127,0
+3,95.05,100,5.54,1.05,122, first & No ==> Adult, first & No, Adult, first, No, =====>, Adult, ,128,0
+4,30.44,32.03,30.44,1.05,670, Adult ==> crew & No & Male, Adult, crew & No & Male, Adult, =====>, crew, No, Male,129,0
+4,95.05,100,30.44,1.05,670, crew & No & Male ==> Adult, crew & No & Male, Adult, crew, No, Male, =====>, Adult,130,0
+4,95.05,100,8.72,1.05,192, crew & Yes & Male ==> Adult, crew & Yes & Male, Adult, crew, Yes, Male, =====>, Adult,131,0
+4,95.05,100,7,1.05,154, second & No & Male ==> Adult, second & No & Male, Adult, second, No, Male, =====>, Adult,132,0
+4,95.05,100,5.36,1.05,118, first & No & Male ==> Adult, first & No & Male, Adult, first, No, Male, =====>, Adult,133,0
+3,95.05,99.31,6.54,1.04,144, first & Female ==> Adult, first & Female, Adult, first, Female, =====>, Adult, ,134,0
+4,95.05,99.29,6.36,1.04,140, first & Yes & Female ==> Adult, first & Yes & Female, Adult, first, Yes, Female, =====>, Adult,135,0
+4,21.63,22.36,17.58,1.03,387, Male ==> third & No & Adult, Male, third & No & Adult, Male, =====>, third, No, Adult,136,0
+4,78.65,81.3,17.58,1.03,387, third & No & Adult ==> Male, third & No & Adult, Male, third, No, Adult, =====>, Male,137,0
+2,95.05,98.15,14.49,1.03,319, first ==> Adult, first, Adult, first, =====>, Adult, , ,138,0
+2,14.77,15.25,14.49,1.03,319, Adult ==> first, Adult, first, Adult, =====>, first, , ,139,0
+3,65.33,67.42,21.63,1.03,476, third ==> No & Adult, third, No & Adult, third, =====>, No, Adult, ,140,0
+3,32.08,33.1,21.63,1.03,476, No & Adult ==> third, No & Adult, third, No, Adult, =====>, third, ,141,0
+3,61.97,63.53,60.38,1.03,1329, Adult ==> No & Male, Adult, No & Male, Adult, =====>, No, Male, ,142,0
+3,95.05,97.43,60.38,1.03,1329, No & Male ==> Adult, No & Male, Adult, No, Male, =====>, Adult, ,143,0
+3,95.05,97.22,7.95,1.02,175, first & Male ==> Adult, first & Male, Adult, first, Male, =====>, Adult, ,144,0
+3,95.05,97.04,8.95,1.02,197, first & Yes ==> Adult, first & Yes, Adult, first, Yes, =====>, Adult, ,145,0
+3,23.99,24.38,19.17,1.02,422, Male ==> third & No, Male, third & No, Male, =====>, third, No, ,146,0
+3,78.65,79.92,19.17,1.02,422, third & No ==> Male, third & No, Male, third, No, =====>, Male, ,147,0
+2,95.05,96.51,65.33,1.02,1438, No ==> Adult, No, Adult, No, =====>, Adult, , ,148,0
+2,67.7,68.74,65.33,1.02,1438, Adult ==> No, Adult, No, Adult, =====>, No, , ,149,1
+2,95.05,96.3,75.74,1.01,1667, Male ==> Adult, Male, Adult, Male, =====>, Adult, , ,150,0
+2,78.65,79.68,75.74,1.01,1667, Adult ==> Male, Adult, Male, Adult, =====>, Male, , ,151,0
+4,65.33,65.56,5.36,1,118, first & Male ==> No & Adult, first & Male, No & Adult, first, Male, =====>, No, Adult,152,0
+4,67.7,67.43,5.36,1,118, first & Male & Adult ==> No, first & Male & Adult, No, first, Male, Adult, =====>, No,153,1
+4,61.97,61.72,17.58,1,387, third & Adult ==> No & Male, third & Adult, No & Male, third, Adult, =====>, No, Male,154,0
+4,28.49,28.37,17.58,1,387, No & Male ==> third & Adult, No & Male, third & Adult, No, Male, =====>, third, Adult,155,0
+3,95.05,93.85,7.63,0.99,168, second & Male ==> Adult, second & Male, Adult, second, Male, =====>, Adult, ,156,0
+3,16.67,16.16,15.36,0.97,338, Adult ==> Yes & Male, Adult, Yes & Male, Adult, =====>, Yes, Male, ,157,0
+3,95.05,92.1,15.36,0.97,338, Yes & Male ==> Adult, Yes & Male, Adult, Yes, Male, =====>, Adult, ,158,0
+3,67.7,65.56,5.36,0.97,118, first & Male ==> No, first & Male, No, first, Male, =====>, No, ,159,1
+2,95.05,91.98,29.71,0.97,654, Yes ==> Adult, Yes, Adult, Yes, =====>, Adult, , ,160,0
+2,32.3,31.26,29.71,0.97,654, Adult ==> Yes, Adult, Yes, Adult, =====>, Yes, , ,161,1
+4,75.74,73.3,17.58,0.97,387, third & No ==> Male & Adult, third & No, Male & Adult, third, No, =====>, Male, Adult,162,0
+4,23.99,23.22,17.58,0.97,387, Male & Adult ==> third & No, Male & Adult, third & No, Male, Adult, =====>, third, No,163,0
+3,15.63,15.11,14.36,0.97,316, Adult ==> Yes & Female, Adult, Yes & Female, Adult, =====>, Yes, Female, ,164,0
+3,95.05,91.86,14.36,0.97,316, Yes & Female ==> Adult, Yes & Female, Adult, Yes, Female, =====>, Adult, ,165,0
+4,19.17,18.5,17.58,0.96,387, Adult ==> third & No & Male, Adult, third & No & Male, Adult, =====>, third, No, Male,166,0
+4,95.05,91.71,17.58,0.96,387, third & No & Male ==> Adult, third & No & Male, Adult, third, No, Male, =====>, Adult,167,0
+3,61.97,59.77,19.17,0.96,422, third ==> No & Male, third, No & Male, third, =====>, No, Male, ,168,0
+3,32.08,30.94,19.17,0.96,422, No & Male ==> third, No & Male, third, No, Male, =====>, third, ,169,0
+2,95.05,91.58,11.86,0.96,261, second ==> Adult, second, Adult, second, =====>, Adult, , ,170,0
+2,12.95,12.48,11.86,0.96,261, Adult ==> second, Adult, second, Adult, =====>, second, , ,171,0
+3,23.17,22.08,20.99,0.95,462, Adult ==> third & Male, Adult, third & Male, Adult, =====>, third, Male, ,172,0
+3,95.05,90.59,20.99,0.95,462, third & Male ==> Adult, third & Male, Adult, third, Male, =====>, Adult, ,173,0
+4,61.97,59,7,0.95,154, second & Adult ==> No & Male, second & Adult, No & Male, second, Adult, =====>, No, Male,174,0
+4,11.86,11.29,7,0.95,154, No & Male ==> second & Adult, No & Male, second & Adult, No, Male, =====>, second, Adult,175,0
+2,95.05,90.43,19.31,0.95,425, Female ==> Adult, Female, Adult, Female, =====>, Adult, , ,176,0
+2,21.35,20.32,19.31,0.95,425, Adult ==> Female, Adult, Female, Adult, =====>, Female, , ,177,0
+3,23.99,22.75,21.63,0.95,476, Adult ==> third & No, Adult, third & No, Adult, =====>, third, No, ,178,0
+3,95.05,90.15,21.63,0.95,476, third & No ==> Adult, third & No, Adult, third, No, =====>, Adult, ,179,0
+3,11.86,11.21,7.59,0.95,167, No ==> second & Adult, No, second & Adult, No, =====>, second, Adult, ,180,0
+3,67.7,63.98,7.59,0.95,167, second & Adult ==> No, second & Adult, No, second, Adult, =====>, No, ,181,1
+3,23.99,22.55,4.82,0.94,106, Female ==> third & No, Female, third & No, Female, =====>, third, No, ,182,0
+3,21.35,20.08,4.82,0.94,106, third & No ==> Female, third & No, Female, third, No, =====>, Female, ,183,0
+3,28.49,26.69,20.99,0.94,462, Male ==> third & Adult, Male, third & Adult, Male, =====>, third, Adult, ,184,0
+3,78.65,73.68,20.99,0.94,462, third & Adult ==> Male, third & Adult, Male, third, Adult, =====>, Male, ,185,0
+2,95.05,88.81,28.49,0.93,627, third ==> Adult, third, Adult, third, =====>, Adult, , ,186,0
+2,32.08,29.97,28.49,0.93,627, Adult ==> third, Adult, third, Adult, =====>, third, , ,187,0
+2,78.65,72.24,23.17,0.92,510, third ==> Male, third, Male, third, =====>, Male, , ,188,0
+2,32.08,29.46,23.17,0.92,510, Male ==> third, Male, third, Male, =====>, third, , ,189,0
+3,95.05,86.51,4.95,0.91,109, No & Female ==> Adult, No & Female, Adult, No, Female, =====>, Adult, ,190,0
+4,60.38,54.82,17.58,0.91,387, third ==> No & Male & Adult, third, No & Male & Adult, third, =====>, No, Male, Adult,191,0
+4,32.08,29.12,17.58,0.91,387, No & Male & Adult ==> third, No & Male & Adult, third, No, Male, Adult, =====>, third,192,0
+3,65.33,58.6,7.59,0.9,167, second ==> No & Adult, second, No & Adult, second, =====>, No, Adult, ,193,0
+3,12.95,11.61,7.59,0.9,167, No & Adult ==> second, No & Adult, second, No, Adult, =====>, second, ,194,0
+4,60.38,54.04,7,0.89,154, second ==> No & Male & Adult, second, No & Male & Adult, second, =====>, No, Male, Adult,195,0
+4,12.95,11.59,7,0.89,154, No & Male & Adult ==> second, No & Male & Adult, second, No, Male, Adult, =====>, second,196,0
+3,95.05,84.83,6.86,0.89,151, third & Yes ==> Adult, third & Yes, Adult, third, Yes, =====>, Adult, ,197,0
+3,95.05,84.18,7.5,0.89,165, third & Female ==> Adult, third & Female, Adult, third, Female, =====>, Adult, ,198,0
+3,61.97,54.04,7,0.87,154, second ==> No & Male, second, No & Male, second, =====>, No, Male, ,199,0
+3,12.95,11.29,7,0.87,154, No & Male ==> second, No & Male, second, No, Male, =====>, second, ,200,0
